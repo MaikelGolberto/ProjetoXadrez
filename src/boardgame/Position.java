@@ -32,4 +32,9 @@ public class Position {
 		sb.append(row + ", " + column);
 		return sb.toString();
 	}
+	
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
 }
